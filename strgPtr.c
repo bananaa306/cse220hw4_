@@ -61,7 +61,7 @@ void strgChangeCase(char *s) {
         {
             if( i==0 && (s[i+1] >='0' && s[i+1]<='9'))
             {
-                continue;
+                i++;
             }
             else if(i == strgLen(s)-1 && (s[i+1] >='0' && s[i+1]<='9')){
                 continue;
@@ -78,7 +78,7 @@ void strgChangeCase(char *s) {
         {
             if( i==0 && (s[i+1] >='0' && s[i+1]<='9'))
             {
-                continue;
+                i++;
             }
             else if(i == strgLen(s)-1 && (s[i+1] >='0' && s[i+1]<='9')){
                 continue;
